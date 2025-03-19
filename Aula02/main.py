@@ -40,3 +40,46 @@ if x > 0 or y > 0:
 
 if not x > 0:
     print("x não é maior que 0")"""
+
+# Imprimindo Lista
+""""my_list = [1,2,3,4,5,6]"""
+"""print(my_list[0:3])
+print(my_list[1:4])"""
+
+# Adicionando mais coisas a lista, usa-se o termo "append"
+"""my_list.append(6)
+print(my_list)"""
+
+# Esse comando adiona um elemento na lista no indice 0 sem remover o elemento que está no indice 0
+"""my_list.insert(0,0)
+print(my_list)"""
+
+# Esse comando remove um elemento que está na lista 
+"""my_list.remove(1)
+print(my_list)"""
+
+# Esse comando remove todos os elementos da lista
+"""my_list.clear()
+print(my_list)"""
+
+# Esse comando reverte a lista 
+"""my_list.reverse()
+print(my_list)"""
+
+# Ordena os elemento em ordem crescente
+"""my_list.sort()
+print(my_list)"""
+
+"""my_list.extend([7,8,9])
+print(my_list)
+
+print(my_list.count(1))
+
+print(my_list.index[1])"""
+
+my_tuple = (1,2,3,4,5)
+print(my_tuple.index(1))
+print(my_tuple.count(1))
+print(my_tuple[0])
+print(my_tuple[-1])
+print(my_tuple[1:6])
