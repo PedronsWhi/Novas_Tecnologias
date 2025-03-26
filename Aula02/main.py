@@ -77,9 +77,28 @@ print(my_list.count(1))
 
 print(my_list.index[1])"""
 
-my_tuple = (1,2,3,4,5)
+# usando Tupla
+"""my_tuple = (1,2,3,4,5)
 print(my_tuple.index(1))
 print(my_tuple.count(1))
 print(my_tuple[0])
 print(my_tuple[-1])
-print(my_tuple[1:6])
+print(my_tuple[1:6])"""
+
+# Usando dicionario 
+"""my_dict = {"name": "John", "age": 10, "city": "New York"}
+print(my_dict["name"])
+print(my_dict.get("age"))
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.items())
+my_dict["age"] = 31
+my_dict["country"] = "USA"""
+
+# Usando funções
+def my_function(param1, param2):
+    return param1 + param2
+
+texto = my_function("Hello ","word!")
+print(texto)
+
